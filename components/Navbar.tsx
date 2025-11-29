@@ -13,9 +13,10 @@ const Navbar = () => {
     return (
         <>
             <nav className="w-full ">
-                <div className="flex px-4 md:px-20 bg-white border z-1 fixed top-0 w-full justify-between font-mono font-semibold p-5">
-                    <div>
-                        <span className="text-xl">Melvin-dev</span>
+                <div className="flex px-4 md:px-20 bg-white border z-1 fixed top-0 w-full justify-between font-mono font-semibold p-2 items-center">
+                    <div className="flex items-center gap-4">
+                       <img src="/Generated Image November 29, 2025 - 12_10PM.png" alt="" className="w-13 rounded-full"/>
+                       <span className="text-xl">Melvin-dev</span>
                     </div>
                      <div className="md:hidden flex justify-center items-center flex-col">
                         <label htmlFor="burger">
