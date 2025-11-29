@@ -26,22 +26,21 @@ const SkillsSection = () => {
     ]
     return (
         <>
-            <h2 className="font-bold text-3xl text-center mt-20">Mes Competences</h2>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 mt-10 gap-5 font-mono">
-                {itemSkills.length > 0 && itemSkills.map((item, index) => (
-
-                    <div className=" flex justify-">
-                        <div className="border flex gap-4 flex-col justify-center text-center size-40 items-center rounded ">
-                            {item.icon ? item?.icon : (
-
-                                <img src={item?.img} alt="" className="size-20" />
-
-                            )}
-                            <span>{item?.text}</span>
-                        </div>
-                    </div>
-                ))}
+            <div className="my-29">
+                <h2 className="font-bold text-3xl text-center mt-20">Mes Competences</h2>
+                <div className="grid  grid-cols-2 md:grid-cols-4 lg:grid-cols-8 mt-10 gap-5 font-mono">
+                    {itemSkills.length > 0 && itemSkills.map((item, index) => (
+                        <div key={index} className=" flex  items-center justify-center">
+                            <div className="border flex gap-4 hover:bg-black hover:text-white cursor-pointer  hover:shadow-2xl flex-col justify-center text-center size-40 items-center rounded ">
+                                {item.icon ? item?.icon : (
+                                    <img src={item?.img} alt="" className="size-20" />
+                                )}
+                                <span>{item?.text}</span>
+                            </div>
+                        </div>))}
+                </div>
             </div>
+
         </>
     )
 }

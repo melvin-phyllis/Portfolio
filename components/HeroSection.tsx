@@ -11,7 +11,7 @@ const HeroSection = () => {
                 <div className=" flex gap-10 md:absolute md:bottom-[-20]">
 
                     {linkprofil.length > 0 && linkprofil.map((item, index) => (
-                        <div className="border flex items-center group hover:bg-black rounded cursor-pointer  justify-center size-10">
+                        <div key={index} className="border flex items-center group hover:bg-black rounded cursor-pointer  justify-center size-10">
                             <a href={item?.href} >{item?.icon}</a>
                         </div>
                     ))}

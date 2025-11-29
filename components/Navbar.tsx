@@ -12,10 +12,10 @@ const Navbar = () => {
 
     return (
         <>
-            <nav>
-                <div className="flex justify-between font-mono font-semibold p-5">
+            <nav className="w-full ">
+                <div className="flex px-4 md:px-20 bg-white border z-1 fixed top-0 w-full justify-between font-mono font-semibold p-5">
                     <div>
-                        <span className="text-xl">Melvin.dev</span>
+                        <span className="text-xl">Melvin-dev</span>
                     </div>
                      <div className="md:hidden flex justify-center items-center flex-col">
                         <label htmlFor="burger">
