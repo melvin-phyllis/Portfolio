@@ -16,7 +16,7 @@ export default function Home() {
         <section id="hero" className="hero-1 mx-4 md:mx-20 mt-20">
           <HeroSection />
         </section>
-        <section id="skills" className="skills mx-4 md:mx-20">
+        {/* <section id="skills" className="skills mx-4 md:mx-20">
           <SkillsSection />
         </section>
         <section id="experience" className="Expericence ">
@@ -27,7 +27,7 @@ export default function Home() {
         </section>
         <section id="projects" className="Projec">
           <MyProjectsSection />
-        </section>
+        </section> */}
       </main>
       <footer>
         <Footer />

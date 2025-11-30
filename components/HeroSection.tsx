@@ -7,7 +7,7 @@ const HeroSection = () => {
     ]
     return (
         <>
-            <div className="flex font-mono md:h-150 gap-5 flex-col-reverse md:flex-row relative">
+            <div className="flex mb-10 font-mono md:h-150 gap-5 flex-col-reverse md:flex-row relative">
                 <div className=" flex gap-10 md:absolute md:bottom-[-20]">
 
                     {linkprofil.length > 0 && linkprofil.map((item, index) => (
